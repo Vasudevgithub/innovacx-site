@@ -1,0 +1,43 @@
+/********** Template CSS **********/
+:root {
+    --primary: #6222CC;
+    --secondary: #FBA504;
+    --light: #F6F4F9;
+    --dark: #04000B;
+}
+
+
+/*** Heading ***/
+h1,
+h2,
+.fw-bold {
+    font-weight: 700;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+    font-weight: 600;
+}
+
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
