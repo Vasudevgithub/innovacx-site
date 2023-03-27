@@ -25,11 +25,112 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $('.carousel').carousel();
+</script>
 
 <body>
-    <div class="container-fluid"> InnovacxSite
-    </div>
+    <!--- Our Customer Start here -->
+    <section>
+        <div class="container-fluid"> 
+            <div class="InnovacxCustHeadingWrap">
+                <div class="InnovacxHeadingLines"></div>
+                <div class="InnovacxHeading"><h1>Our Customers</h1></div>
+                <div class="InnovacxHeadingLines"></div>
+            </div>
+            <div class="InnovacxTagLine">
+                <h3>At innovacx,we put our customers success at the center of everything we do</h3>
+                <p> We are a global innovation services company with far reaching customer success stories across Oracle on-premise and cloud solutions for most industries including retail, consumer goods, manufacturing, insurance, hospitality, financial services, airlines, hi-tech, and professional services just to name a few.</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./images/Accor.png" alt="accor">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/alsea.png" alt="alsea">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/bajaj.jpg" alt="bajaj">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/central_group.png" alt="central">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/Dastur.jpg" alt="Dastur">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/desjardins.png" alt="desjardins">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/emami.jpg" alt="emami">
+                  </div> 
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./images/aparna.jpg" alt="aparna">
+                  </div>                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="carosuelContent">
+                <div class="accor" style="display: none;">
+                    <p>Accor Hotels is a French Hotel Group, 5th largest in the world, operating in 94 countries, 3,700 hotels representing several diverse brands, from budget and economy lodging to luxurious accommodations in exotic locales.ACCOR engaged innovacx on a loyalty platform assessment for the LeCLub program that led to next generation program transformations & innovations that aligned to Accor’s 6 themes for digital transformation and based on emerging trends in customer loyalty, best program practices in Hospitality and other B2C industries.</p>
+                </div>
+                <div class="alsea" style="display: none;">
+                    <p>Alsea is the largest fast food franchise of Latin America. It’s operating portfolio includes fast-food, casual dining, and cafeteria type restaurants located in Mexico, South America and Spain.Alsea engaged Innovacx strategy services for a program assessment that led to innovative recommendations including increased utilization of their CRM platform to drive next generation loyalty programs and the creation of a coalition program across all brands.</p>
+                </div>
+                <div class="bajaj" style="display: none;">
+                    <p>Bajaj Electricals is a global industrial services provider and manufacturer of consumer electrical products.Bajaj has migrated from a legacy on-premise CRM platform to a modern Sales Cloud solution to enable process innovations and Mobility to manage sales effectiveness and performance of its Sales team.Key outcomes -Enablement of Customer 360 view- Intelligent Activity Recommendation and Closure process based on secondary sales data integratio - Role based dashboards and BI analytics.Bajaj also engaged Innovacx to implement a Marketing Cloud for its Marketing automation and customer engagement automation needs.Innovacx also provides a Bajaj a Multi-Node configuration for it's on-premise CRM platform, as well as operation support to manager their Sales and Marketing activities and new initiatives</p>
+                </div>
+                <div class="central" style="display: none;">
+                    <p>CPN is a Thailand based company who has successfully captured a lion’s share of the market demand for more fully integrated shopping complexes that can offer consumers a total "one-stop-shopping" experience.CPN engaged Innovacx to deploy and optimize their Business Intelligence Suite to deliver new insights from their Loyalty platform.</p>
+                </div>
+                <div class="Dastur" style="display: none;">
+                    <p>M.N.Dastur is an Indian engineering consultancy company. To manage Sales performance and Lead to Order processes they have implemented a modern Sales Cloud solution and chose innovacx to be their innovation partner.Key outcome of the project:- Rapid implementation in 5 weeks time - Customer 360 View - Lead Management and Activity Management M. N. Dastur also leverages the Innovacx’ on-demand application support services for managing their sales operations and new innovation initiatives.</p>
+                </div>
+                <div class="desjardins" style="display: none;">
+                    <p>Desjardins is the largest association of credit unions in North America and are located mostly in Quebec and in Ontario, Alberta, and New Brunswick.Desjardins leverages Innovacx UX design labs to deliver enhanced user experience for Sales associates and Service center users with an intelligent dashboard that prvides summarized information and workflows to capture call reports.</p>
+                </div>
+                <div class="emami" style="display: none;">
+                    <p>Emami is cement manufacturing company in India who needed to modernize their sales functions and decided to implement a modern Sales Cloud Solution.Key outcome of the implementation:- Multi channel enablement- Customer 360 view- BI analytics and Role based Dashboards- Integration with SAP.Innovacx also provides ongoing support to manage their day to day Sales activities and works with business and IT for enabling new initiatives.</p>
+                </div>
+                <div class="aparna" style="display: none;">
+                    <p>Aparna Construction is real estate company in India who engaged Innovacx in designing a modern marketing solution leveraging a Cloud based Marketing Automation and AB testing platform for building targeted web campaigns.Innovacx also integrated their Marketing Cloud solution with their existing CRM for better customer engagement and lead nurturing.</p>
+                </div>
+                <button class="btn InnoBtnPrimary">Know More</button>
+            </div>
+            <!-- <button class="btn InnoBtnPrimary">Know More</button> -->
+        </div>
+    </section>
+    <!--- Our Customer End here -->
 </body>
-
+<script>
+    $('.carousel-item').click(function (){
+        //alert('123');
+        console.log('1111');
+        var getImgsrc = $(this).closest('div.carousel-inner').find('.carousel-item.active > img').attr('alt')
+        console.log(getImgsrc);
+        $('.carosuelContent>div').hide();
+        $('div.'+getImgsrc).show();
+    })
+</script>
 </html>

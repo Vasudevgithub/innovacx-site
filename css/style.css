@@ -1,10 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
+    --primary: #2AABB3;
     --secondary: #FBA504;
     --light: #F6F4F9;
     --dark: #04000B;
 }
+
 
 
 /*** Heading ***/
@@ -41,3 +42,89 @@ h6,
     width: 38px;
     height: 38px;
 }
+
+
+/* ------------ Our Customer Start ------------- */
+.InnovacxCustHeadingWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InnovacxHeadingLines {
+    width: 70px;
+    height: 2px;
+    background: #006AA5;
+}
+.InnovacxHeading {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #006AA5;
+}
+.InnovacxHeading > h1{
+    color: #006AA5;
+}
+.InnovacxTagLine>h3 {
+    font-size: 30px;
+    color: #2AABB3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.InnovacxTagLine p {
+    font-size: 17px;
+}
+.InnovacxTagLine {
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+}
+.carousel-inner {
+    position: relative;
+    /* width: 35%; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* margin: 0px auto; */
+    height: 200px;
+    margin-bottom: 10%;
+    background: #fff;
+    padding: 60px;
+}
+.carousel-item {
+    padding: 30px;
+}
+.carousel-item-next:not(.carousel-item-start), .active.carousel-item-end, 
+.carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
+    transform: translateX(145%);
+}
+.carousel-control-prev-icon {
+    background-image: url('../images/carsouel_prev.svg');
+}
+.carousel-control-next-icon {
+    background-image: url('../images/carsouel_next.svg');
+}
+.carousel-control-next {
+    right: -80px;
+}
+.carousel-control-prev {
+    left: -80px;
+}
+.carousel {
+    position: relative;
+    width: 30%;
+    margin: 0px auto;
+}
+.carosuelContent {
+    margin: 0px auto;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.InnoBtnPrimary {
+    background: #2AABB3;
+    border-radius: 35px;
+    color: #fff;
+    padding: 15px 60px;
+}
+/* ------------ Our Customer End ------------- */
